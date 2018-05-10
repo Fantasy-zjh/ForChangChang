@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.love.gift.forchangchang">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_heart"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_heart"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".QandA.question.q1" />
+        <activity android:name=".QandA.question.q2" />
+        <activity android:name=".QandA.question.q3" />
+        <activity android:name=".QandA.question.q4" />
+        <activity android:name=".QandA.question.q5" />
+        <activity android:name=".QandA.question.q6" />
+        <activity android:name=".QandA.answer.q1_a" />
+        <activity android:name=".QandA.answer.q2_a" />
+        <activity android:name=".QandA.answer.q3_a" />
+        <activity android:name=".QandA.answer.q4_a" />
+        <activity android:name=".QandA.answer.q5_a" />
+        <activity android:name=".QandA.answer.q6_a" />
+        <activity android:name=".FinalActivity" />
+
+        <service android:name=".backgroundmusic.MusicServer" />
+
+        <meta-data
+            android:name="design_width"
+            android:value="1440" />
+        <meta-data
+            android:name="design_height"
+            android:value="2560" />
+    </application>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.hardware.sensor.accelerometer" />
+
+</manifest>

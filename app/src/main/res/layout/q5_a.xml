@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image5">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1000px"
+        android:background="@drawable/qingming"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="1100px">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple"
+            android:textStyle="bold"
+            android:textSize="80px"
+            android:gravity="center"
+            android:text="2018年3月28号，在一起的第67天"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="60px"
+            android:textStyle="italic"
+            android:textColor="@color/purple"
+            android:layout_marginTop="40px"
+            android:text="@string/q5"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.love.gift.forchangchang.snow.FallingView
+        android:id="@+id/fallingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</com.zhy.autolayout.AutoFrameLayout>
